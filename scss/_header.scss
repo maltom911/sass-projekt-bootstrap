@@ -1,0 +1,27 @@
+#main-header {
+    height: 100vh;
+    background: url('../img/header-background.jpg') no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    .header-inner {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+        h1 {
+            font-size: 60px;
+            font-weight: 100;
+            span{
+                font-weight: 400;
+                color: limegreen;
+            }
+        }
+        h2 {
+               font-weight: 100;
+            }
+    }
+}
+    

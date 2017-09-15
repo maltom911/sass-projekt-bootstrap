@@ -1,0 +1,41 @@
+#portfolio{
+    
+    .portfolio-item {
+    
+        .portfolio-item-mask{
+            background-color: rgba(42, 61, 79, 0.8);
+            height: 100%;
+            opacity: 0;
+            padding: 10px;
+            transition: all .4s;
+        }
+    }
+        .portfolio-item:hover{
+            .portfolio-item-mask{
+                opacity: 1;
+            }
+        }
+    .portfolio-item{
+        
+        .portfolio-item-border {
+                height: 100%;
+                border: 1px solid #FFFFFF;
+                position: relative;
+                
+                .portfolio-item-content{
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    
+                    p {
+                        color: #FFFFFF;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+}
+    
+
+
+

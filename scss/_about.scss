@@ -1,0 +1,13 @@
+#about {
+    -webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.6);
+    background-color: #F9FCFE; 
+    
+    .about-image{
+        height: 300px;
+        width: 300px;
+        background-image: url(../img/jan-nowak.jpg);
+        background-size: cover;
+    }
+}

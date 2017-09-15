@@ -1,0 +1,17 @@
+#main-nav{
+    .container{
+    background-color: #FFFFFF;
+    width: 100%;
+        a{
+            margin-right: 5px;
+            margin-left: 5px;
+            color: #1AC056;
+            transition: all 0.5s linear; 
+        }
+        ul{
+            a:hover{
+               color: greenyellow; 
+            }        
+            }
+        }    
+    }
